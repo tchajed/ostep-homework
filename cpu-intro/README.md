@@ -106,7 +106,7 @@ Time     PID: 0        CPU        IOs
   5     RUN:cpu          1
 ```
 
-This result is not too interesting: the process is simple in the RUN state and
+This result is not too interesting: the process is simply in the RUN state and
 then finishes, using the CPU the whole time and thus keeping the CPU busy the
 entire run, and not doing any I/Os.
 
@@ -250,7 +250,3 @@ There are a few other important flags:
 ```
 
 Now go answer the questions at the back of the chapter to learn more, please.
-
-
-
-
