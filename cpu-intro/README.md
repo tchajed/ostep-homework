@@ -83,8 +83,9 @@ Process 0
   cpu
 
 Important behaviors:
-  System will switch when the current process is FINISHED or ISSUES AN IO
-  After IOs, the process issuing the IO will run LATER (when it is its turn)
+  - System will switch when the current process is FINISHED or ISSUES AN IO
+  - After IOs, the process issuing the IO will run LATER (when it is its turn)
+  - IOs take 5 steps
 
 prompt> 
 ```
@@ -130,8 +131,9 @@ Process 1
   cpu
 
 Important behaviors:
-  Scheduler will switch when the current process is FINISHED or ISSUES AN IO
-  After IOs, the process issuing the IO will run LATER (when it is its turn)
+  - System will switch when the current process is FINISHED or ISSUES AN IO
+  - After IOs, the process issuing the IO will run LATER (when it is its turn)
+  - IOs take 5 steps
 ```
 
 In this case, two different processes run, each again just using the CPU. What
@@ -173,8 +175,9 @@ Process 0
   io_done
 
 Important behaviors:
-  System will switch when the current process is FINISHED or ISSUES AN IO
-  After IOs, the process issuing the IO will run LATER (when it is its turn)
+  - System will switch when the current process is FINISHED or ISSUES AN IO
+  - After IOs, the process issuing the IO will run LATER (when it is its turn)
+  - IOs take 5 steps
 ```
 
 What do you think the execution trace will look like? Let's find out:
